@@ -105,8 +105,8 @@
         android:text="Calcular"
         android:textAllCaps="true"
         android:textSize="18sp"
-        android:backgroundTint="@color/gray_dark"
-        android:textColor="@color/black"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
         android:textStyle="bold" />
 
     <TextView
