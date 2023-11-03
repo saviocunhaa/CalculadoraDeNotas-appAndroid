@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/nota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 01"
+        android:background="@color/grayLight"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <EditText
+        android:id="@+id/nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 02"
+        android:background="@color/grayLight"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_below="@+id/nota1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <EditText
+        android:id="@+id/nota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 03"
+        android:background="@color/grayLight"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/nota2"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <EditText
+        android:id="@+id/nota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 04"
+        android:background="@color/grayLight"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/nota3"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <EditText
+        android:id="@+id/numeroFalta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Número de Faltas"
+        android:background="@color/grayLight"
+        android:inputType="number"
+        android:gravity="center"
+        android:maxLength="2"
+        android:padding="20dp"
+        android:layout_below="@+id/nota4"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+
+    />
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numeroFalta"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="20dp"
+        android:text="Calcular"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:backgroundTint="@color/gray_dark"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aluno Aprovado/Reprovado"
+        android:layout_below="@+id/btCalcular"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="20dp"
+        />
+
+
+
+
+
+</RelativeLayout>
