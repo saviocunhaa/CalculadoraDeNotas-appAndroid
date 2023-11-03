@@ -23,7 +23,7 @@ Os Projetos foram desenvolvido com as seguintes tecnologias:
 - Material Design:
 - Git e Github
 
-## 💻 Projeto
+## ⏲️ Projeto
 
 Este repositório contém o meu primeiro projeto de aplicativo Android, uma ferramenta simples mas eficaz projetada para ajudar estudantes a calcular suas notas de forma rápida e fácil. O aplicativo foi criado como parte do meu processo de aprendizado em desenvolvimento de aplicativos móveis.
 Logica do Projeto, Media > 7 e numeroFalta < 20, será aprovado.
@@ -39,7 +39,7 @@ Logica do Projeto, Media > 7 e numeroFalta < 20, será aprovado.
 - Manipulação de eventos de usuário na interface.
 - Estruturação de um projeto Android e padrões de código.
 
-## 💻 Imagens
+## ✨ Imagens
 ![image](https://github.com/saviocunhaa/CalculadoraDeNotas-appAndroid/assets/12139704/8c2d36f3-bf51-498f-be45-ab72159c799d)
 ![image](https://github.com/saviocunhaa/CalculadoraDeNotas-appAndroid/assets/12139704/9528ddcc-3d0f-4de6-a1c6-c3fc0e105340)
 ![image](https://github.com/saviocunhaa/CalculadoraDeNotas-appAndroid/assets/12139704/5490713d-abbc-420d-83d3-7f7337877636)
