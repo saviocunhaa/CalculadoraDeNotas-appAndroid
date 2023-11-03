@@ -20,7 +20,7 @@ Os Projetos foram desenvolvido com as seguintes tecnologias:
 
 - Android Studio
 - Java
-- Material Design:
+- Material Design
 - Git e Github
 
 ## ⏲️ Projeto
