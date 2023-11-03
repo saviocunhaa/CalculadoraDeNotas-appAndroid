@@ -3,6 +3,7 @@ package com.example.calculadoradenotas;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -36,6 +37,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Log.i("bt", "Botão ok"); // Esse log serve para testar o eveto de clique que será visto no Logcat
 
+                // Validação par campos vazios.
+                if (TextUtils.isEmpty(numeroFaltas.getText().toString())){
+                    numeroFaltas.setError("Preencha o Valor");
+                    return;
+                } else  if (TextUtils.isEmpty(n1.getText().toString())){
+                    n1.setError("Preencha o Valor");
+                    return;
+                } else  if (TextUtils.isEmpty(n2.getText().toString())){
+                    n2.setError("Preencha o Valor");
+                    return;
+                } else  if (TextUtils.isEmpty(n3.getText().toString())){
+                    n3.setError("Preencha o Valor");
+                    return;
+                } else  if (TextUtils.isEmpty(n4.getText().toString())) {
+                    n4.setError("Preencha o Valor");
+                    return;
+                }
 
                 double mediaFinal;
                 //receber todos os dados em estringe e converter para seus tipos especificos
@@ -45,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 double nota4 = Double.parseDouble(n4.getText().toString());
                 int numeroFalta = Integer.parseInt(numeroFaltas.getText().toString());
 
+
                 mediaFinal = (nota1 + nota2 + nota3 + nota4)/4;
                 //iniciar verificação de clausulas
                 if (mediaFinal >= 7 && numeroFalta <= 20){
@@ -53,14 +72,13 @@ public class MainActivity extends AppCompatActivity {
                 }else if(numeroFalta > 20) {
                     txtResultado.setText("Aluno Reprovado por Falta \n Faltas: "+ numeroFalta);
                     txtResultado.setTextColor(getColor(R.color.red));
-                } else {
+                }else {
                     txtResultado.setText("Aluno Reprovado \n Media: " + mediaFinal);
                     txtResultado.setTextColor(getColor(R.color.red));
                 }
 
+                }
 
-
-            }
         });
 
     }
