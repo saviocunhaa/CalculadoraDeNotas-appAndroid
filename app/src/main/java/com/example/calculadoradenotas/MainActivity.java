@@ -65,15 +65,16 @@ public class MainActivity extends AppCompatActivity {
 
 
                 mediaFinal = (nota1 + nota2 + nota3 + nota4)/4;
+
                 //iniciar verificação de clausulas
                 if (mediaFinal >= 7 && numeroFalta <= 20){
-                    txtResultado.setText("Aluno Aprovado \n Média: " + mediaFinal);
+                    txtResultado.setText(String.format("Aluno Aprovado \n Média: %.2f ", mediaFinal));
                     txtResultado.setTextColor(getColor(R.color.green));
                 }else if(numeroFalta > 20) {
                     txtResultado.setText("Aluno Reprovado por Falta \n Faltas: "+ numeroFalta);
                     txtResultado.setTextColor(getColor(R.color.red));
                 }else {
-                    txtResultado.setText("Aluno Reprovado \n Media: " + mediaFinal);
+                    txtResultado.setText(String.format("Aluno Reprovado \n Media: %.2f ", mediaFinal));
                     txtResultado.setTextColor(getColor(R.color.red));
                 }
 
