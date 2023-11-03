@@ -9,7 +9,7 @@ Primeiro Aplicativo Estudando Desenvolvimento de Aplicativos Android
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-imagens">Imagens</a>
+  <a href="#imagens">Imagens</a>
 </p>
 
 <br>
